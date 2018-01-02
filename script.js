@@ -15,7 +15,7 @@ const library = [
 ];
 
 button.addEventListener("click", function createList() {
-  //iterate through library array of objects created above with opening curly brace at the end
+  //iterate through library array of objects created above
   let book = ["'" + <get the title of each object in library here> + "'" + ' by ' + <get the author of each object in library here> + "."];
   if(set if condition of library reading status === true here){
     const linebreak = document.createElement("br");
