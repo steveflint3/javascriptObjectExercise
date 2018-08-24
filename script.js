@@ -17,7 +17,7 @@ const library = [
 button.addEventListener("click", function createList() {
   //iterate through library array of objects created above
   let book = ["'" + <get the title of each object in library here> + "'" + ' by ' + <get the author of each object in library here> + "."];
-  if(set if condition of library reading status === true here){
+  if(set if condition to check if library book reading status equals true here){
     const linebreak = document.createElement("br");
     statusRead.append(book);
     statusRead.appendChild(linebreak);
@@ -37,19 +37,18 @@ document.getElementById("addButton").addEventListener("click", function(){
   //get the value of readingStatus input and set to variable similar to above line
 
 
-  //create newObj variable that contains an object with the keys title, author and readingStatus set to empthy strings
+  //create newObj variable that contains an object with the keys title, author and readingStatus set to empty strings
 
   newObj.title = title;
   //set the empty string of author in newObj to the value from author input similar to the line above
   //set the empty string of readingStatus in newObj to the value from readingStatus input similar to the line above
 
-  newObj.readingStatus = readingStatus;
-
   //use push function to push the newObj that now has values to the library array of objects created above
   // use exampleArr.push(objectYouWantToPush);
 
     let book = ["'" + newObj.title + "'" + ' by ' + newObj.author + "."];
-    if(newObj.readingStatus === 'true'){
+    //add a condition below that checks if the reading status of newObj is true (hint: remember your values)</get></get>
+    if(){
       const linebreak = document.createElement("br");
       statusRead.append(book);
       statusRead.appendChild(linebreak);
